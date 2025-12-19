@@ -1,12 +1,12 @@
 .whole{
-    width:1300px;
-    height:1200px;
+    width:1275px;
+    height:1400px;
     background-color:white;
     
 }
 .navbar{
     
-    width:1300px;
+    width:1285px;
     height:150px;
     background-color:rgb(34,120,34);
      background-image:url("background.jpg");
@@ -34,18 +34,19 @@
 }
 .home{
     text-align:center;
-    width:325px;
+    width:321.25px;
     height:40px;
     background-color:#6b8e23;
     color:white;
 }
 .search{
     margin-top:10px;
-    width:1300px;
+    width:1290px;
     height:40px;
     text-align:center;
     border-radius:999px;
     padding:12px 20px;
+    padding-right: 20px;
 }
 .lens{
     display:flex;
@@ -64,8 +65,8 @@
     height:170px;
 }
 .big{
-    width:1300px;
-    height:200px;
+    width:1255px;
+    height:230px;
     background-color:#6b8e23;
     border-radius:20px;
     padding:10px 15px;
@@ -118,4 +119,28 @@
     font-size:15px;
     color:#999;
     text-decoration:line-through;
+}
+.suggest{
+     width:1300px;
+    height:200px;
+    background-color:#6b8e23;
+    border-radius:20px;
+    padding:10px 15px;
+    display:flex;
+    padding-top:10px;
+
+}
+.but{
+    margin-top: 20px;
+}
+.cartbut{
+    width:120px;
+    height:30px;
+    text-align:center;
+    border-radius:999px;
+    padding:12px 20px;
+    background-color: white;
+    padding-top: 3px;
+    
+    
 }
