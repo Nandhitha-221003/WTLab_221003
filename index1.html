@@ -9,15 +9,19 @@
         <div class="whole">
             <div class="navbar">
                 <h1 class="heading">GramMart</h1>
+                
             </div>
             <div class="bar">
-                <button type="button" class="home" onclick="lays.jpeg" href="C:\Users\NANDHU\Desktop\Website\slippers.jpg.jpeg"><i class="fa-solid fa-house"></i>Home</button> 
+                <button type="button" class="home"><i class="fa-solid fa-house"></i><a href="index1.html">Home</a></button> 
                 <button class="home" onclick="background.jpg"><i class="fa-solid fa-heart"></i>Wishlist</button> 
                 <button class="home" onclick="background.jpg"><i class="fa-solid fa-cart-shopping"></i>Cart</button> 
                 <button class="home" ><i class="fa-solid fa-user"></i><a href="account.html">Account</a></button>
             </div>
             <div class="lens">
-                <input type="search" placeholder="Search Your Products" class="search">
+                <input type="search" placeholder="Search Your Products" class="search" onfocus="playSearchSound()">
+                <audio  id="searchAudio" >
+                        <source src="C:\Users\NANDHU\Downloads\Radha Ragasiya BGM.mp3" type="audio/mpeg">
+                </audio>
             </div>
             <div class="vid">
                  <video autoplay loop muted class="vid">
@@ -319,4 +323,9 @@
            
         </div>
     <body>
+    <script defer>
+        function playSearchSound(){
+            document.getElementById("searchAudio").play();
+        }
+    </script>
 </html>

@@ -62,7 +62,11 @@
     border-radius:5px;
     background-color: white;
     font-size: 15px;
-    
+    color:black;
+}
+.a{
+    text-decoration:none;
+    color:black;
 }
 .but2{
     width:485px;
